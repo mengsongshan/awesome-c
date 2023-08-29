@@ -29,4 +29,4 @@ ocase = {"ocase", 2};  // compile wrong !
 
 system_info = {4, 8192}; // compile wrong !
 
-使用{}为struct的所有字段赋值时，只能在声明时。
+使用{}为struct的所有字段赋值时，只能在变量声明时或者结构定义时，不然无法通过编译器编译。
