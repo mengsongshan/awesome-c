@@ -10,6 +10,7 @@ dubbin.name = "charry";  // complie wrong!
 ask:  https://stackoverflow.com/questions/26693537/in-c-why-cant-i-assign-a-string-to-a-char-array-after-its-declared
 
 2、结构的所有属性赋值
+
 struct 
 {
    int cpu;
