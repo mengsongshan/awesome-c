@@ -1,8 +1,28 @@
+1、字符串的赋值
+
 struct Member
 {
    char name[50];
 } dubbin;
 
 dubbin.name = "charry";  // complie wrong!
-https://stackoverflow.com/questions/26693537/in-c-why-cant-i-assign-a-string-to-a-char-array-after-its-declared
 
+ask:  https://stackoverflow.com/questions/26693537/in-c-why-cant-i-assign-a-string-to-a-char-array-after-its-declared
+
+2、结构的所有属性赋值
+struct 
+{
+   int cpu;
+   int memory;
+} system_info = {2, 4096};
+
+struct Person
+{
+    char name [50];
+    int sex;
+};
+
+struct Person Jetty = {"jetty", 1};
+
+
+使用{}为struct的所有字段赋值时，只能在声明时。
