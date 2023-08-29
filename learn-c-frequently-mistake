@@ -14,7 +14,7 @@ struct
 {
    int cpu;
    int memory;
-} system_info = {2, 4096};
+} system_info = {2, 4096};  // ok
 
 struct Person
 {
@@ -22,7 +22,11 @@ struct Person
     int sex;
 };
 
-struct Person Jetty = {"jetty", 1};
+struct Person Jetty = {"jetty", 1};  // ok
 
+struct Person ocase;
+ocase = {"ocase", 2};  // compile wrong !
+
+system_info = {4, 8192}; // compile wrong !
 
 使用{}为struct的所有字段赋值时，只能在声明时。
