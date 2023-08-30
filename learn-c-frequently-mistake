@@ -31,3 +31,9 @@ ocase = {"ocase", 2};  // compile wrong !
 system_info = {4, 8192}; // compile wrong !
 
 使用{}为struct的所有字段赋值时，只能在变量声明时或者结构定义时，不然无法通过编译器编译。
+
+3、空宏
+#define ngx_cdecl
+#define ngx_libc_cdecl
+
+https://blog.csdn.net/midion9/article/details/50605337
